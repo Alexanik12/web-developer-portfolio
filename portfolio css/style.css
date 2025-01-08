@@ -41,7 +41,7 @@
   font-size: 27px;
   border-radius: 8px;
   cursor: pointer;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 .banner-subtitle{
@@ -129,3 +129,68 @@ main{
   font-weight: bold;
 }
 
+.text-center{
+  text-align: center;
+}
+
+.card{
+  margin-top: 208px;
+
+}
+.title-of{
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.card-items{
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+  
+}
+
+.card-item{
+  padding: 35px;
+  box-shadow: 0px 6px 50px 0px #FFFFFF;
+  border-radius: 5px;
+}
+
+.resume{
+  margin-top: 160px;
+  
+}
+
+.resume-colum{
+ display: flex;
+ gap: 24px;
+ margin-top: 130px;
+}
+
+.a{
+  margin-top: 50px;
+}
+
+
+footer{
+  display: flex;
+  padding: 130px 230px;
+  gap: 100px;
+  margin-top: 130px;
+}
+
+.footer-column{
+  width: 50%;
+}
+
+footer input[type="text" ] ,footer input[type="email"] ,textarea {
+  background-color: white;
+  height: 64px;
+  display: block;
+  width: 100%;
+  margin-bottom: 24px;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+font-size: 16px;
+}
