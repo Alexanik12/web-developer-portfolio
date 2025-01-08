@@ -13,6 +13,8 @@
  background: url('../images/developer.png'),url('../images/header_bg.png');
   background-repeat: no-repeat;
   background-position: top left, bottom right;
+  width: 1600px;
+  margin: auto;
 }
  /* taxt style  */
 
